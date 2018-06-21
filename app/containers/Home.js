@@ -86,7 +86,7 @@ class Home extends Component {
       console.log("onopen");
       //rws.send('hello!');
     };
-    console.log('喔喔喔喔喔喔喔喔我玩',rws);
+    console.log('喔喔喔喔喔喔喔喔我',rws);
 
     rws.onmessage = (e) => {
       // 接收到了一个消息
